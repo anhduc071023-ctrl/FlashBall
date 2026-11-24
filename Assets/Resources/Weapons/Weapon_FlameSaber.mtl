@@ -1,0 +1,11 @@
+# Material for Weapon_FlameSaber
+newmtl mat_0
+Kd 1.0000 1.0000 1.0000
+Ks 0.35 0.35 0.35
+Ns 48.0
+d 1.0
+newmtl mat_default
+Kd 0.85 0.85 0.88
+Ks 0.35 0.35 0.35
+Ns 48.0
+d 1.0

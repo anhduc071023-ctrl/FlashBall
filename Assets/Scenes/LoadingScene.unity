@@ -5464,7 +5464,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1802735984}
   percentText: {fileID: 285640463}
-  gameplaySceneIndex: 2
 --- !u!4 &1209825086
 Transform:
   m_ObjectHideFlags: 0
@@ -5824,7 +5823,7 @@ RectTransform:
   m_GameObject: {fileID: 1799558679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 21.471682, y: 10.03336, z: 1}
+  m_LocalScale: {x: 21.471682, y: 11.162112, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1563824143}

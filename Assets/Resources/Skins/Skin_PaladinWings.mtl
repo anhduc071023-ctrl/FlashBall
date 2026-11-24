@@ -1,0 +1,12 @@
+newmtl BaseArmor
+Kd 0.960 0.970 1.000
+d 1.0
+
+newmtl TrimMetal
+Kd 1.000 0.820 0.200
+d 1.0
+
+newmtl EmissiveCore
+Kd 1.000 0.920 0.420
+d 1.0
+

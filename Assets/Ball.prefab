@@ -4860,6 +4860,7 @@ GameObject:
   - component: {fileID: 17575113846234466}
   - component: {fileID: 948429777355600044}
   - component: {fileID: 8530070411988413563}
+  - component: {fileID: 8806627728482542003}
   m_Layer: 7
   m_Name: Ball
   m_TagString: Ball
@@ -4971,7 +4972,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0
   _isInSkill: 0
+  _isResetting: 0
+  _netPosition: {x: 0, y: 0, z: 0}
+  _netVelocity: {x: 0, y: 0, z: 0}
+  _ballActive:
+    _value: 0
   mapCenter: {fileID: 0}
+  remoteSmooth: 18
+  remotePrediction: 0.04
   startSpeed: 10
   speedMultiplier: 1.1
   maxSpeed: 60
@@ -4982,6 +4990,8 @@ MonoBehaviour:
   homingStrength: 5
   powerForceMultiplier: 1.8
   powerSpeedMultiplier: 1.25
+  isFakeBall: 0
+  preSkillSpeed: 0
 --- !u!54 &8530070411988413563
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5009,3 +5019,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8806627728482542003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7467235500756181423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 796781427
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 948429777355600044}
+  ForceRemoteRenderTimeframe: 0
