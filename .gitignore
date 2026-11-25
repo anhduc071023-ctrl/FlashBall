@@ -108,3 +108,7 @@ InitTestScene*.unity*
 # VS Code
 .vscode/
 
+
+# Personal CV PDFs (keep local only)
+docs/*CV*.pdf
+
